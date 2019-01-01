@@ -1,0 +1,3 @@
+/home/negin/Documents/term_3/advanced_programming/Game/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/negin/Documents/term_3/advanced_programming/Game/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/negin/Documents/term_3/advanced_programming/Game/cmake-build-debug/CMakeFiles/Game.dir

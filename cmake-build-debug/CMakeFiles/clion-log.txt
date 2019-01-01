@@ -1,0 +1,4 @@
+/home/negin/JetBrains.CLion.2018.1.2.Linux_www.Downloadha.com_/CLion-2018.1.2/clion-2018.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/negin/Documents/term_3/advanced_programming/Game
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/negin/Documents/term_3/advanced_programming/Game/cmake-build-debug
