@@ -18,6 +18,7 @@ void Mohre_TicTacToe::move(int xdest, int ydest, Board &board, Mohre &target, Di
     }
 
     board.get_board()[xdest][ydest] = shape.c_str()[0];
+   // Mohre_TicTacToe temp = Mohre_TicTacToe()
     PreviousMove last (this,this->get_x(),this->get_y(),MOVE,xdest,ydest);
     moves.push_back(&last);
 

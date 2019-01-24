@@ -6,34 +6,6 @@
 //
 TicTacToe::TicTacToe()
 {
-    COLOR color_1=players[0]->get_color();
-    COLOR color_2=players[1]->get_color();
-    std::string ident1=players[0]->get_ident();
-    std::string ident2=players[1]->get_ident();
-    board=Board_TicTacToe(color_1,color_2);
-    players=*(new std::vector<Player*>(2)) ;
-    Mohre_TicTacToe first(ident1,color_1,5,0);
-    Mohre_TicTacToe second(ident1,color_1,5,1);
-    Mohre_TicTacToe _3th(ident1,color_1,5,2);
-    Mohre_TicTacToe _4th(ident1,color_1,5,3);
-    Mohre_TicTacToe _5th(ident1,color_1,5,4);
-    players[0]->get_beads()=*(new std::vector<Mohre*> (5));
-    players[0]->Add_Bead(&first);
-    players[0]->Add_Bead(&second);
-    players[0]->Add_Bead(&_3th);
-    players[0]->Add_Bead(&_4th);
-    players[0]->Add_Bead(&_5th);
-    Mohre_TicTacToe first_2(ident2,color_2,0,0);
-    Mohre_TicTacToe second_2(ident2,color_2,1,0);
-    Mohre_TicTacToe _3th_2(ident2,color_2,2,0);
-    Mohre_TicTacToe _4th_2(ident2,color_2,3,0);
-    Mohre_TicTacToe _5th_2(ident2,color_2,4,0);
-    players[1]->get_beads()=*(new std::vector<Mohre*> (5));
-    players[1]->Add_Bead(&first_2);
-    players[1]->Add_Bead(&second_2);
-    players[1]->Add_Bead(&_3th_2);
-    players[1]->Add_Bead(&_4th_2);
-    players[1]->Add_Bead(&_5th_2);
 
 }
 int TicTacToe::check_winner(Player* current_player) {

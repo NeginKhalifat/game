@@ -74,6 +74,9 @@ public:
 };
 
 
+class PreviousMove;
+
+
 class Board {
 protected:
     int length, width;
@@ -82,17 +85,22 @@ protected:
 public:
     Board(int len = 0, int wid = 0) : length(len), width(wid) {
 //        game_board = new char *[len][wid];
-      //  game_board = new char *[wid];
+    //    game_board = new char *[wid];
     };
-    char** get_board(){ return game_board;}
+    char ** get_board(){
+        return game_board;
+    }
+
+    virtual void insert_peace(Player* player, int x, int y, Dice& dice, std::vector<PreviousMove*>& moves){
+        MethodHasToBeDefinedException b;
+        throw b;
+    }
 };
-
-
-class PreviousMove;
 
 
 class Game {
 protected:
+    bool is_insertion_based = false;
     std::vector<Player *> players;
     bool has_dice = false;
     Dice dice;
@@ -146,6 +154,8 @@ public:
         MethodHasToBeDefinedException b;
         throw b;
     };
+
+    void make_insertion_based();
 };
 
 
@@ -159,6 +169,8 @@ protected:
     std::vector<Mohre *> mohre;
     BRAIN_TYPE brain;
 public:
+    std::string get_ident(){ return identifier;}
+    COLOR get_color(){ return color;}
     Player(COLOR cl, std::string name);
 
     Player(std::string ident, std::string name);
@@ -180,8 +192,9 @@ public:
     BRAIN_TYPE get_brain();
 
     void Add_Bead(Mohre *bead);
-    std::string get_ident(){ return identifier;}
-    COLOR get_color(){ return color;}
+
+    void add_peace(int scoket, Board& board, Dice& dice, std::vector<PreviousMove*>& moves);
+
 };
 
 

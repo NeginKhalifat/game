@@ -12,8 +12,8 @@ width=6;
 
         for (int i =0 ; i <6 ; ++i) {
             for (int j = 2; j <6; ++j) {
-                game_board[i][j]='';
-                
+                game_board[i][j]=' ';
+
             }
             for (int l = 0; l <5 ; ++l) {
              game_board[l][0]='X';
@@ -49,3 +49,17 @@ width=6;
 
 Board_TicTacToe::Board_TicTacToe() {}
 
+void Board_TicTacToe::insert_peace(Player *player, int xdest, int ydest, Dice &dice, std::vector<PreviousMove *> &moves) {
+
+
+    if (game_board[xdest][ydest]=='X'||game_board[xdest][ydest]=='O'){
+        InvalidMoveException e;
+        throw e;
+    }
+
+    game_board[xdest][ydest] = player->get_ident()[0];
+    Mohre_TicTacToe temp = Mohre_TicTacToe(player->get_ident().c_str(),player->get_color(),xdest,ydest);
+    PreviousMove last (&temp,temp.get_x(),temp.get_y(),ADD,xdest,ydest);
+    moves.push_back(&last);
+
+}

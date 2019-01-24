@@ -22,6 +22,8 @@ protected:
 public:
     Board_TicTacToe();
 
+    void insert_peace(Player* player, int x, int y, Dice& dice, std::vector<PreviousMove*>& moves);
+
 };
 
 class TicTacToe:public Game{
