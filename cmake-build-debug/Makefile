@@ -123,6 +123,249 @@ Game/fast:
 	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/build
 .PHONY : Game/fast
 
+Board_TicTacToe.o: Board_TicTacToe.cpp.o
+
+.PHONY : Board_TicTacToe.o
+
+# target to build an object file
+Board_TicTacToe.cpp.o:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Board_TicTacToe.cpp.o
+.PHONY : Board_TicTacToe.cpp.o
+
+Board_TicTacToe.i: Board_TicTacToe.cpp.i
+
+.PHONY : Board_TicTacToe.i
+
+# target to preprocess a source file
+Board_TicTacToe.cpp.i:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Board_TicTacToe.cpp.i
+.PHONY : Board_TicTacToe.cpp.i
+
+Board_TicTacToe.s: Board_TicTacToe.cpp.s
+
+.PHONY : Board_TicTacToe.s
+
+# target to generate assembly for a file
+Board_TicTacToe.cpp.s:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Board_TicTacToe.cpp.s
+.PHONY : Board_TicTacToe.cpp.s
+
+Dice.o: Dice.cpp.o
+
+.PHONY : Dice.o
+
+# target to build an object file
+Dice.cpp.o:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Dice.cpp.o
+.PHONY : Dice.cpp.o
+
+Dice.i: Dice.cpp.i
+
+.PHONY : Dice.i
+
+# target to preprocess a source file
+Dice.cpp.i:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Dice.cpp.i
+.PHONY : Dice.cpp.i
+
+Dice.s: Dice.cpp.s
+
+.PHONY : Dice.s
+
+# target to generate assembly for a file
+Dice.cpp.s:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Dice.cpp.s
+.PHONY : Dice.cpp.s
+
+Game.o: Game.cpp.o
+
+.PHONY : Game.o
+
+# target to build an object file
+Game.cpp.o:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Game.cpp.o
+.PHONY : Game.cpp.o
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
+Mohre.o: Mohre.cpp.o
+
+.PHONY : Mohre.o
+
+# target to build an object file
+Mohre.cpp.o:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Mohre.cpp.o
+.PHONY : Mohre.cpp.o
+
+Mohre.i: Mohre.cpp.i
+
+.PHONY : Mohre.i
+
+# target to preprocess a source file
+Mohre.cpp.i:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Mohre.cpp.i
+.PHONY : Mohre.cpp.i
+
+Mohre.s: Mohre.cpp.s
+
+.PHONY : Mohre.s
+
+# target to generate assembly for a file
+Mohre.cpp.s:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Mohre.cpp.s
+.PHONY : Mohre.cpp.s
+
+Mohre_TicTacToe.o: Mohre_TicTacToe.cpp.o
+
+.PHONY : Mohre_TicTacToe.o
+
+# target to build an object file
+Mohre_TicTacToe.cpp.o:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.o
+.PHONY : Mohre_TicTacToe.cpp.o
+
+Mohre_TicTacToe.i: Mohre_TicTacToe.cpp.i
+
+.PHONY : Mohre_TicTacToe.i
+
+# target to preprocess a source file
+Mohre_TicTacToe.cpp.i:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.i
+.PHONY : Mohre_TicTacToe.cpp.i
+
+Mohre_TicTacToe.s: Mohre_TicTacToe.cpp.s
+
+.PHONY : Mohre_TicTacToe.s
+
+# target to generate assembly for a file
+Mohre_TicTacToe.cpp.s:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.s
+.PHONY : Mohre_TicTacToe.cpp.s
+
+Player.o: Player.cpp.o
+
+.PHONY : Player.o
+
+# target to build an object file
+Player.cpp.o:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Player.cpp.o
+.PHONY : Player.cpp.o
+
+Player.i: Player.cpp.i
+
+.PHONY : Player.i
+
+# target to preprocess a source file
+Player.cpp.i:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Player.cpp.i
+.PHONY : Player.cpp.i
+
+Player.s: Player.cpp.s
+
+.PHONY : Player.s
+
+# target to generate assembly for a file
+Player.cpp.s:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Player.cpp.s
+.PHONY : Player.cpp.s
+
+PreviousMove.o: PreviousMove.cpp.o
+
+.PHONY : PreviousMove.o
+
+# target to build an object file
+PreviousMove.cpp.o:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/PreviousMove.cpp.o
+.PHONY : PreviousMove.cpp.o
+
+PreviousMove.i: PreviousMove.cpp.i
+
+.PHONY : PreviousMove.i
+
+# target to preprocess a source file
+PreviousMove.cpp.i:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/PreviousMove.cpp.i
+.PHONY : PreviousMove.cpp.i
+
+PreviousMove.s: PreviousMove.cpp.s
+
+.PHONY : PreviousMove.s
+
+# target to generate assembly for a file
+PreviousMove.cpp.s:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/PreviousMove.cpp.s
+.PHONY : PreviousMove.cpp.s
+
+TicTacToe.o: TicTacToe.cpp.o
+
+.PHONY : TicTacToe.o
+
+# target to build an object file
+TicTacToe.cpp.o:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/TicTacToe.cpp.o
+.PHONY : TicTacToe.cpp.o
+
+TicTacToe.i: TicTacToe.cpp.i
+
+.PHONY : TicTacToe.i
+
+# target to preprocess a source file
+TicTacToe.cpp.i:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/TicTacToe.cpp.i
+.PHONY : TicTacToe.cpp.i
+
+TicTacToe.s: TicTacToe.cpp.s
+
+.PHONY : TicTacToe.s
+
+# target to generate assembly for a file
+TicTacToe.cpp.s:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/TicTacToe.cpp.s
+.PHONY : TicTacToe.cpp.s
+
+Time.o: Time.cpp.o
+
+.PHONY : Time.o
+
+# target to build an object file
+Time.cpp.o:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Time.cpp.o
+.PHONY : Time.cpp.o
+
+Time.i: Time.cpp.i
+
+.PHONY : Time.i
+
+# target to preprocess a source file
+Time.cpp.i:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Time.cpp.i
+.PHONY : Time.cpp.i
+
+Time.s: Time.cpp.s
+
+.PHONY : Time.s
+
+# target to generate assembly for a file
+Time.cpp.s:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Time.cpp.s
+.PHONY : Time.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +402,33 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Game"
+	@echo "... Board_TicTacToe.o"
+	@echo "... Board_TicTacToe.i"
+	@echo "... Board_TicTacToe.s"
+	@echo "... Dice.o"
+	@echo "... Dice.i"
+	@echo "... Dice.s"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
+	@echo "... Mohre.o"
+	@echo "... Mohre.i"
+	@echo "... Mohre.s"
+	@echo "... Mohre_TicTacToe.o"
+	@echo "... Mohre_TicTacToe.i"
+	@echo "... Mohre_TicTacToe.s"
+	@echo "... Player.o"
+	@echo "... Player.i"
+	@echo "... Player.s"
+	@echo "... PreviousMove.o"
+	@echo "... PreviousMove.i"
+	@echo "... PreviousMove.s"
+	@echo "... TicTacToe.o"
+	@echo "... TicTacToe.i"
+	@echo "... TicTacToe.s"
+	@echo "... Time.o"
+	@echo "... Time.i"
+	@echo "... Time.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

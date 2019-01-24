@@ -57,9 +57,81 @@ include CMakeFiles/Game.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Game.dir/flags.make
 
+CMakeFiles/Game.dir/Board_TicTacToe.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/Board_TicTacToe.cpp.o: ../Board_TicTacToe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/negin/Documents/term_3/advanced_programming/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Game.dir/Board_TicTacToe.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Board_TicTacToe.cpp.o -c /home/negin/Documents/term_3/advanced_programming/Game/Board_TicTacToe.cpp
+
+CMakeFiles/Game.dir/Board_TicTacToe.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Board_TicTacToe.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/negin/Documents/term_3/advanced_programming/Game/Board_TicTacToe.cpp > CMakeFiles/Game.dir/Board_TicTacToe.cpp.i
+
+CMakeFiles/Game.dir/Board_TicTacToe.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Board_TicTacToe.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/negin/Documents/term_3/advanced_programming/Game/Board_TicTacToe.cpp -o CMakeFiles/Game.dir/Board_TicTacToe.cpp.s
+
+CMakeFiles/Game.dir/Board_TicTacToe.cpp.o.requires:
+
+.PHONY : CMakeFiles/Game.dir/Board_TicTacToe.cpp.o.requires
+
+CMakeFiles/Game.dir/Board_TicTacToe.cpp.o.provides: CMakeFiles/Game.dir/Board_TicTacToe.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Board_TicTacToe.cpp.o.provides.build
+.PHONY : CMakeFiles/Game.dir/Board_TicTacToe.cpp.o.provides
+
+CMakeFiles/Game.dir/Board_TicTacToe.cpp.o.provides.build: CMakeFiles/Game.dir/Board_TicTacToe.cpp.o
+
+
+CMakeFiles/Game.dir/Dice.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/Dice.cpp.o: ../Dice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/negin/Documents/term_3/advanced_programming/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Game.dir/Dice.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Dice.cpp.o -c /home/negin/Documents/term_3/advanced_programming/Game/Dice.cpp
+
+CMakeFiles/Game.dir/Dice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Dice.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/negin/Documents/term_3/advanced_programming/Game/Dice.cpp > CMakeFiles/Game.dir/Dice.cpp.i
+
+CMakeFiles/Game.dir/Dice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Dice.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/negin/Documents/term_3/advanced_programming/Game/Dice.cpp -o CMakeFiles/Game.dir/Dice.cpp.s
+
+CMakeFiles/Game.dir/Dice.cpp.o.requires:
+
+.PHONY : CMakeFiles/Game.dir/Dice.cpp.o.requires
+
+CMakeFiles/Game.dir/Dice.cpp.o.provides: CMakeFiles/Game.dir/Dice.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Dice.cpp.o.provides.build
+.PHONY : CMakeFiles/Game.dir/Dice.cpp.o.provides
+
+CMakeFiles/Game.dir/Dice.cpp.o.provides.build: CMakeFiles/Game.dir/Dice.cpp.o
+
+
+CMakeFiles/Game.dir/Game.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/Game.cpp.o: ../Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/negin/Documents/term_3/advanced_programming/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Game.dir/Game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Game.cpp.o -c /home/negin/Documents/term_3/advanced_programming/Game/Game.cpp
+
+CMakeFiles/Game.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/negin/Documents/term_3/advanced_programming/Game/Game.cpp > CMakeFiles/Game.dir/Game.cpp.i
+
+CMakeFiles/Game.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/negin/Documents/term_3/advanced_programming/Game/Game.cpp -o CMakeFiles/Game.dir/Game.cpp.s
+
+CMakeFiles/Game.dir/Game.cpp.o.requires:
+
+.PHONY : CMakeFiles/Game.dir/Game.cpp.o.requires
+
+CMakeFiles/Game.dir/Game.cpp.o.provides: CMakeFiles/Game.dir/Game.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Game.cpp.o.provides.build
+.PHONY : CMakeFiles/Game.dir/Game.cpp.o.provides
+
+CMakeFiles/Game.dir/Game.cpp.o.provides.build: CMakeFiles/Game.dir/Game.cpp.o
+
+
 CMakeFiles/Game.dir/main.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/negin/Documents/term_3/advanced_programming/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Game.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/negin/Documents/term_3/advanced_programming/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Game.dir/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/main.cpp.o -c /home/negin/Documents/term_3/advanced_programming/Game/main.cpp
 
 CMakeFiles/Game.dir/main.cpp.i: cmake_force
@@ -81,17 +153,179 @@ CMakeFiles/Game.dir/main.cpp.o.provides: CMakeFiles/Game.dir/main.cpp.o.requires
 CMakeFiles/Game.dir/main.cpp.o.provides.build: CMakeFiles/Game.dir/main.cpp.o
 
 
+CMakeFiles/Game.dir/Mohre.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/Mohre.cpp.o: ../Mohre.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/negin/Documents/term_3/advanced_programming/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Game.dir/Mohre.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Mohre.cpp.o -c /home/negin/Documents/term_3/advanced_programming/Game/Mohre.cpp
+
+CMakeFiles/Game.dir/Mohre.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Mohre.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/negin/Documents/term_3/advanced_programming/Game/Mohre.cpp > CMakeFiles/Game.dir/Mohre.cpp.i
+
+CMakeFiles/Game.dir/Mohre.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Mohre.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/negin/Documents/term_3/advanced_programming/Game/Mohre.cpp -o CMakeFiles/Game.dir/Mohre.cpp.s
+
+CMakeFiles/Game.dir/Mohre.cpp.o.requires:
+
+.PHONY : CMakeFiles/Game.dir/Mohre.cpp.o.requires
+
+CMakeFiles/Game.dir/Mohre.cpp.o.provides: CMakeFiles/Game.dir/Mohre.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Mohre.cpp.o.provides.build
+.PHONY : CMakeFiles/Game.dir/Mohre.cpp.o.provides
+
+CMakeFiles/Game.dir/Mohre.cpp.o.provides.build: CMakeFiles/Game.dir/Mohre.cpp.o
+
+
+CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.o: ../Mohre_TicTacToe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/negin/Documents/term_3/advanced_programming/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.o -c /home/negin/Documents/term_3/advanced_programming/Game/Mohre_TicTacToe.cpp
+
+CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/negin/Documents/term_3/advanced_programming/Game/Mohre_TicTacToe.cpp > CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.i
+
+CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/negin/Documents/term_3/advanced_programming/Game/Mohre_TicTacToe.cpp -o CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.s
+
+CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.o.requires:
+
+.PHONY : CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.o.requires
+
+CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.o.provides: CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.o.provides.build
+.PHONY : CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.o.provides
+
+CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.o.provides.build: CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.o
+
+
+CMakeFiles/Game.dir/Player.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/Player.cpp.o: ../Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/negin/Documents/term_3/advanced_programming/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Game.dir/Player.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Player.cpp.o -c /home/negin/Documents/term_3/advanced_programming/Game/Player.cpp
+
+CMakeFiles/Game.dir/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Player.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/negin/Documents/term_3/advanced_programming/Game/Player.cpp > CMakeFiles/Game.dir/Player.cpp.i
+
+CMakeFiles/Game.dir/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Player.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/negin/Documents/term_3/advanced_programming/Game/Player.cpp -o CMakeFiles/Game.dir/Player.cpp.s
+
+CMakeFiles/Game.dir/Player.cpp.o.requires:
+
+.PHONY : CMakeFiles/Game.dir/Player.cpp.o.requires
+
+CMakeFiles/Game.dir/Player.cpp.o.provides: CMakeFiles/Game.dir/Player.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Player.cpp.o.provides.build
+.PHONY : CMakeFiles/Game.dir/Player.cpp.o.provides
+
+CMakeFiles/Game.dir/Player.cpp.o.provides.build: CMakeFiles/Game.dir/Player.cpp.o
+
+
+CMakeFiles/Game.dir/PreviousMove.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/PreviousMove.cpp.o: ../PreviousMove.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/negin/Documents/term_3/advanced_programming/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Game.dir/PreviousMove.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/PreviousMove.cpp.o -c /home/negin/Documents/term_3/advanced_programming/Game/PreviousMove.cpp
+
+CMakeFiles/Game.dir/PreviousMove.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/PreviousMove.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/negin/Documents/term_3/advanced_programming/Game/PreviousMove.cpp > CMakeFiles/Game.dir/PreviousMove.cpp.i
+
+CMakeFiles/Game.dir/PreviousMove.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/PreviousMove.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/negin/Documents/term_3/advanced_programming/Game/PreviousMove.cpp -o CMakeFiles/Game.dir/PreviousMove.cpp.s
+
+CMakeFiles/Game.dir/PreviousMove.cpp.o.requires:
+
+.PHONY : CMakeFiles/Game.dir/PreviousMove.cpp.o.requires
+
+CMakeFiles/Game.dir/PreviousMove.cpp.o.provides: CMakeFiles/Game.dir/PreviousMove.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/PreviousMove.cpp.o.provides.build
+.PHONY : CMakeFiles/Game.dir/PreviousMove.cpp.o.provides
+
+CMakeFiles/Game.dir/PreviousMove.cpp.o.provides.build: CMakeFiles/Game.dir/PreviousMove.cpp.o
+
+
+CMakeFiles/Game.dir/TicTacToe.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/TicTacToe.cpp.o: ../TicTacToe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/negin/Documents/term_3/advanced_programming/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Game.dir/TicTacToe.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/TicTacToe.cpp.o -c /home/negin/Documents/term_3/advanced_programming/Game/TicTacToe.cpp
+
+CMakeFiles/Game.dir/TicTacToe.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/TicTacToe.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/negin/Documents/term_3/advanced_programming/Game/TicTacToe.cpp > CMakeFiles/Game.dir/TicTacToe.cpp.i
+
+CMakeFiles/Game.dir/TicTacToe.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/TicTacToe.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/negin/Documents/term_3/advanced_programming/Game/TicTacToe.cpp -o CMakeFiles/Game.dir/TicTacToe.cpp.s
+
+CMakeFiles/Game.dir/TicTacToe.cpp.o.requires:
+
+.PHONY : CMakeFiles/Game.dir/TicTacToe.cpp.o.requires
+
+CMakeFiles/Game.dir/TicTacToe.cpp.o.provides: CMakeFiles/Game.dir/TicTacToe.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/TicTacToe.cpp.o.provides.build
+.PHONY : CMakeFiles/Game.dir/TicTacToe.cpp.o.provides
+
+CMakeFiles/Game.dir/TicTacToe.cpp.o.provides.build: CMakeFiles/Game.dir/TicTacToe.cpp.o
+
+
+CMakeFiles/Game.dir/Time.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/Time.cpp.o: ../Time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/negin/Documents/term_3/advanced_programming/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Game.dir/Time.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/Time.cpp.o -c /home/negin/Documents/term_3/advanced_programming/Game/Time.cpp
+
+CMakeFiles/Game.dir/Time.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Time.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/negin/Documents/term_3/advanced_programming/Game/Time.cpp > CMakeFiles/Game.dir/Time.cpp.i
+
+CMakeFiles/Game.dir/Time.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Time.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/negin/Documents/term_3/advanced_programming/Game/Time.cpp -o CMakeFiles/Game.dir/Time.cpp.s
+
+CMakeFiles/Game.dir/Time.cpp.o.requires:
+
+.PHONY : CMakeFiles/Game.dir/Time.cpp.o.requires
+
+CMakeFiles/Game.dir/Time.cpp.o.provides: CMakeFiles/Game.dir/Time.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Time.cpp.o.provides.build
+.PHONY : CMakeFiles/Game.dir/Time.cpp.o.provides
+
+CMakeFiles/Game.dir/Time.cpp.o.provides.build: CMakeFiles/Game.dir/Time.cpp.o
+
+
 # Object files for target Game
 Game_OBJECTS = \
-"CMakeFiles/Game.dir/main.cpp.o"
+"CMakeFiles/Game.dir/Board_TicTacToe.cpp.o" \
+"CMakeFiles/Game.dir/Dice.cpp.o" \
+"CMakeFiles/Game.dir/Game.cpp.o" \
+"CMakeFiles/Game.dir/main.cpp.o" \
+"CMakeFiles/Game.dir/Mohre.cpp.o" \
+"CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.o" \
+"CMakeFiles/Game.dir/Player.cpp.o" \
+"CMakeFiles/Game.dir/PreviousMove.cpp.o" \
+"CMakeFiles/Game.dir/TicTacToe.cpp.o" \
+"CMakeFiles/Game.dir/Time.cpp.o"
 
 # External object files for target Game
 Game_EXTERNAL_OBJECTS =
 
+Game: CMakeFiles/Game.dir/Board_TicTacToe.cpp.o
+Game: CMakeFiles/Game.dir/Dice.cpp.o
+Game: CMakeFiles/Game.dir/Game.cpp.o
 Game: CMakeFiles/Game.dir/main.cpp.o
+Game: CMakeFiles/Game.dir/Mohre.cpp.o
+Game: CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.o
+Game: CMakeFiles/Game.dir/Player.cpp.o
+Game: CMakeFiles/Game.dir/PreviousMove.cpp.o
+Game: CMakeFiles/Game.dir/TicTacToe.cpp.o
+Game: CMakeFiles/Game.dir/Time.cpp.o
 Game: CMakeFiles/Game.dir/build.make
 Game: CMakeFiles/Game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/negin/Documents/term_3/advanced_programming/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/negin/Documents/term_3/advanced_programming/Game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +333,16 @@ CMakeFiles/Game.dir/build: Game
 
 .PHONY : CMakeFiles/Game.dir/build
 
+CMakeFiles/Game.dir/requires: CMakeFiles/Game.dir/Board_TicTacToe.cpp.o.requires
+CMakeFiles/Game.dir/requires: CMakeFiles/Game.dir/Dice.cpp.o.requires
+CMakeFiles/Game.dir/requires: CMakeFiles/Game.dir/Game.cpp.o.requires
 CMakeFiles/Game.dir/requires: CMakeFiles/Game.dir/main.cpp.o.requires
+CMakeFiles/Game.dir/requires: CMakeFiles/Game.dir/Mohre.cpp.o.requires
+CMakeFiles/Game.dir/requires: CMakeFiles/Game.dir/Mohre_TicTacToe.cpp.o.requires
+CMakeFiles/Game.dir/requires: CMakeFiles/Game.dir/Player.cpp.o.requires
+CMakeFiles/Game.dir/requires: CMakeFiles/Game.dir/PreviousMove.cpp.o.requires
+CMakeFiles/Game.dir/requires: CMakeFiles/Game.dir/TicTacToe.cpp.o.requires
+CMakeFiles/Game.dir/requires: CMakeFiles/Game.dir/Time.cpp.o.requires
 
 .PHONY : CMakeFiles/Game.dir/requires
 

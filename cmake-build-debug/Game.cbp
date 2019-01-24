@@ -82,10 +82,49 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/negin/Documents/term_3/advanced_programming/Game/Board_TicTacToe.cpp">
+			<Option target="Game"/>
+		</Unit>
 		<Unit filename="/home/negin/Documents/term_3/advanced_programming/Game/CMakeLists.txt">
 			<Option target="Game"/>
 		</Unit>
-		<Unit filename="/home/negin/Documents/term_3/advanced_programming/Game/Class.h">
+		<Unit filename="/home/negin/Documents/term_3/advanced_programming/Game/ClassesOfTicTacToe.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/negin/Documents/term_3/advanced_programming/Game/Dice.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/negin/Documents/term_3/advanced_programming/Game/Exceptions.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/negin/Documents/term_3/advanced_programming/Game/Game.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/negin/Documents/term_3/advanced_programming/Game/Mohre.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/negin/Documents/term_3/advanced_programming/Game/Mohre_TicTacToe.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/negin/Documents/term_3/advanced_programming/Game/Player.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/negin/Documents/term_3/advanced_programming/Game/PreviousMove.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/negin/Documents/term_3/advanced_programming/Game/Socket.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/negin/Documents/term_3/advanced_programming/Game/TicTacToe.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/negin/Documents/term_3/advanced_programming/Game/Time.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/negin/Documents/term_3/advanced_programming/Game/classes.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="/home/negin/Documents/term_3/advanced_programming/Game/helperfunctions.h">
 			<Option target="Game"/>
 		</Unit>
 		<Unit filename="/home/negin/Documents/term_3/advanced_programming/Game/main.cpp">
